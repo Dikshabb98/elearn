@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import MyImage from '../images/picture1.png'
+import MyImage from '../images/pic5.jpg'
 function Navbar() {
   const [showNav, setShowNav] = useState(false);
   const toggleNav = () => {
@@ -8,7 +8,7 @@ function Navbar() {
   };
   return (
     <div >
-      <nav>
+      <nav id="navv">
         <a href="index.html">
           <svg
             id="logo-37"
@@ -69,7 +69,7 @@ function Navbar() {
 
         <div >
         
-          <ul classname="navbr">
+          <ul id="navbr">
             <li>
               <a className="active" href="index.html"> Home</a>
               <a href="index.html">Courses</a>
@@ -78,14 +78,14 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="navbar-toggle" onClick={toggleNav}>
-          <i className={showNav ? "fa-times" : "fa-bars"}></i>
+        <div id="navbar-toggle" onClick={toggleNav}>
+          <i id="bar" className={showNav ? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i>
         </div>
         
       </nav>
-      <div className="img">
+      {/* <div className="img">
       <img src={MyImage} alt="MyImage" />
-      </div>
+      </div> */}
     </div>
   );
 }
