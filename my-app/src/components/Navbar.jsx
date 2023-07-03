@@ -7,7 +7,7 @@ function Navbar() {
     setShowNav(!showNav);
   };
   return (
-    <div className="nav">
+    <div >
       <nav>
         <a href="index.html">
           <svg
@@ -67,9 +67,9 @@ function Navbar() {
           </svg>
         </a>
 
-        <div classname="navbr">
+        <div >
         
-          <ul >
+          <ul classname="navbr">
             <li>
               <a className="active" href="index.html"> Home</a>
               <a href="index.html">Courses</a>
