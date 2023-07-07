@@ -1,11 +1,16 @@
 import './App.css'
 import React from 'react'
 import Navbar from './components/Navbar'
+import MyImage from './components/MyImage'
+import Animation from "./components/Animation"
 function App()  {
   return (
     <div>
       <Navbar/>
-    </div>
+      <MyImage/>
+      <Animation/>
+      </div>
+   
      
    
   )

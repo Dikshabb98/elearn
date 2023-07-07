@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import MyImage from '../images/pic5.jpg'
+
 function Navbar() {
   const [showNav, setShowNav] = useState(false);
   const toggleNav = () => {
     setShowNav(!showNav);
   };
   return (
-    <div >
+    <div>
       <nav id="navv">
         <a href="index.html">
           <svg
@@ -67,25 +67,35 @@ function Navbar() {
           </svg>
         </a>
 
-        <div >
-        
+        <div>
           <ul id="navbr">
             <li>
-              <a className="active" href="index.html"> Home</a>
-              <a href="index.html">Courses</a>
-              <a href="index.html">About</a>
-              <a href="index.html">Login</a>
+              <a className="active" href="">
+                {" "}
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="/">Courses</a>
+            </li>
+            <li>
+              <a href="/">Roadmaps</a>
+            </li>
+            <li>
+              <a href="/">About</a>
+            </li>
+            <li>
+              <a href="/">Login</a>
             </li>
           </ul>
         </div>
         <div id="navbar-toggle" onClick={toggleNav}>
-          <i id="bar" className={showNav ? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i>
+          <i
+            id="bar"
+            className={showNav ? "fa-solid fa-xmark" : "fa-solid fa-bars"}
+          ></i>
         </div>
-        
       </nav>
-      {/* <div className="img">
-      <img src={MyImage} alt="MyImage" />
-      </div> */}
     </div>
   );
 }
