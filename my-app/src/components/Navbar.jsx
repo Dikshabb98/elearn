@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
@@ -6,9 +7,11 @@ function Navbar() {
   const toggleNav = () => {
     setShowNav(!showNav);
   };
+
   return (
     <div>
       <nav id="navv">
+        <Link to="/">
         <a href="index.html">
           <svg
             id="logo-37"
@@ -66,26 +69,26 @@ function Navbar() {
             ></path>{" "}
           </svg>
         </a>
+        </Link>
 
         <div>
           <ul id="navbr">
             <li>
-              <a className="active" href="">
-                {" "}
+              <Link className="active" to="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/">Courses</a>
+              <Link to="/course">Courses</Link>
             </li>
             <li>
-              <a href="/">Roadmaps</a>
+              <Link to="/roadmaps">Roadmaps</Link>
             </li>
             <li>
-              <a href="/">About</a>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <a href="/">Login</a>
+              <Link to="/login">Login</Link>
             </li>
           </ul>
         </div>

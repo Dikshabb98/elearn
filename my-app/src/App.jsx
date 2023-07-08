@@ -11,16 +11,19 @@ import Login from './components/Login'
 function App()  {
   return (
     <div>
-      <Navbar/>
+     
       <BrowserRouter>
 <Navbar/>
+
 <Routes>
-   <Route  path="/" element={<Home></Home>}/>
-   <Route  path="/Course" element={<Course></Course>}/>
-   <Route  path="/Roadmaps" element={<Roadmaps></Roadmaps>}/>
-   <Route  path="/About" element={<About></About>}/>
-   <Route  path="/Login" element={<Login></Login>}/>
+  <Route path="/" element={<Home />} />
+  <Route path="/course" element={<Course />} />
+  <Route path="/roadmaps" element={<Roadmaps />} />
+  <Route path="/about" element={<About />} />
+  <Route path="/login" element={<Login />} />
 </Routes>
+
+
 </BrowserRouter>
       <MyImage/>
       

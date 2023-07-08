@@ -1,10 +1,14 @@
 import React from 'react'
-
+import './Course.css'
 const Course = () => {
   return (
-    <section className='crs'>
+    <>
+   
+    
+      
         <h2>Welcome to Courses page</h2>
-    </section>
+    
+    </>
   )
 }
 
