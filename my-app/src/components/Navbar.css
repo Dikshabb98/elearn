@@ -48,7 +48,7 @@
     display: none;
 }
 
-/* @media screen and (max-width:769px){
+@media screen and (max-width:769px){
     #navbr{
         display: flex;
         flex-direction: column;
@@ -62,4 +62,4 @@
     #navbar-toggle bar{
         display: flex;
     }
-} */
+}
