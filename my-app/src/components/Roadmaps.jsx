@@ -2,7 +2,8 @@ import React from 'react'
 
 const Roadmaps = () => {
   return (
-    <div>Roadmaps</div>
+    <>
+    <h2>Hey buddy  this is your roadmap.</h2></>
   )
 }
 

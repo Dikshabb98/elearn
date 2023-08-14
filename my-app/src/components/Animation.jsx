@@ -5,7 +5,7 @@ function Animation(){
   useEffect(() => {
     const interval = setInterval(() => {
       
-      setText('mina');
+      setText('hey');
     }, 2000); 
     
     return () => clearInterval(interval);

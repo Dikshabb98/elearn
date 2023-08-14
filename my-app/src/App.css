@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
 }
-a{
+/* a{
   text-decoration: none;
 }
 li{
@@ -45,13 +45,9 @@ li{
 .btn:hover{
   background-color: beige;
 }
-img{
-  width: 100%;
-  height: auto;
-}
 input{
   font-size: 100%;
 }
 body{
   background-color: #fff;
-}
+} */
