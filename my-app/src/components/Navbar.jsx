@@ -72,7 +72,7 @@ function Navbar() {
         </Link>
 
         <div>
-          <ul id="navbr">
+          <ul id="navbr" className={showNav ? "#navbr active" : "#navbr"}>
             <li>
               <Link className="active" to="/">
                 Home

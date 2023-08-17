@@ -1,19 +1,8 @@
-import React,{useState,useEffect} from 'react'
+import React from 'react'
 
-function Animation(){
-  const [text, setText] = useState('ditsa');
-  useEffect(() => {
-    const interval = setInterval(() => {
-      
-      setText('hey');
-    }, 2000); 
-    
-    return () => clearInterval(interval);
-  }, []); 
+const Animation = () => {
   return (
-    <div className='ani'>
-      {text}
-    </div>
+    <div></div>
   )
 }
 

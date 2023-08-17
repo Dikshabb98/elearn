@@ -1,7 +1,7 @@
 
 import React from 'react'
 import './MyImage.css'
-import MyImage from '../images/picture1.png'
+import MyImage from '../images/p6.png'
 import Animation from './Animation'
 function App()  {
   return (
