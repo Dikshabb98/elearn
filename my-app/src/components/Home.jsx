@@ -5,7 +5,9 @@ const Home = () => {
    
    <>
    
-        <h2>Welcome to Home page</h2>
+        <h2>Are you looking for the best online platform!
+          if yes, here we are.
+        </h2>
     
     
     </>

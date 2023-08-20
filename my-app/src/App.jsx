@@ -2,12 +2,13 @@ import './App.css'
 import React from 'react'
 import { BrowserRouter,Routes,  Route} from "react-router-dom"
 import Navbar from './components/Navbar'
-import MyImage from './components/MyImage'
+// import MyImage from './components/MyImage'
 import Home from './components/Home'
 import Course from './components/Course'
 import Roadmaps from './components/Roadmaps'
 import About from './components/About'
 import Login from './components/Login'
+
 function App()  {
   return (
     <div>
@@ -25,7 +26,7 @@ function App()  {
 
 
 </BrowserRouter>
-      <MyImage/>
+      {/* <MyImage/> */}
       
       </div>
    
