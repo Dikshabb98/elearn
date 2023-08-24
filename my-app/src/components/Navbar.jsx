@@ -90,7 +90,9 @@ function Navbar() {
             <li>
               <Link to="/login">Login</Link>
             </li>
-            <li><button onClick={() => console.log('Button clicked!')}>Sign in</button></li>
+            <li>
+              <button id="butn1" onClick={() => console.log('Button clicked!')}>Sign in</button>
+              </li>
             
           </ul>
         </div>

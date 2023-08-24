@@ -1,15 +1,36 @@
-butnn{
-    margin-left:190px ;
-   width:80px;
-  background-color: black;
-  color: white;
-  border-radius: 10px 10px;
-  cursor: pointer;
-}
-butnn:hover {
-    background: #0c0c0c;
-    background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
-    background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
-}
 
+
+.roadmap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    margin-top: 200px;
+  }
   
+  .roadmap button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(190,104,194);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    border-radius: 20px 20px 20px 20px ;
+  }
+  
+  .roadmap button:hover {
+    background-color:rgb(166,8,153);
+  }
+
+#Rodadmap_btn {
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+ padding: 0;
+ margin: 0;
+}
+  
+ 

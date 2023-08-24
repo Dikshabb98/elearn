@@ -12,21 +12,21 @@ const Roadmaps = () => {
   };
 
   return (
-    <div className='butnn'>
-      <Frontend title="Frontend" />
-      <button onClick={() => { handleDownload(file) }}>Show</button>
+    <div className='roadmap'id='roadmaphai'>
+      <Frontend title="Frontend Devloper" />
+      <button className=" Rodadmap_btn" onClick={() => { handleDownload(file) }}>Show</button>
 
-      <Frontend title="Backend" />
-      <button onClick={() => { handleDownload(fil2) }}>Show</button>
+      <Frontend title="Backend Devloper" />
+      <button className=" Rodadmap_btn" onClick={() => { handleDownload(fil2) }}>Show</button>
 
-      <Frontend title="UI/UX" />
-      <button onClick={() => { handleDownload(fil3) }}>Show</button>
+      <Frontend title="UI/UX Devloper" />
+      <button className=" Rodadmap_btn" onClick={() => { handleDownload(fil3) }}>Show</button>
 
-      <Frontend title="Blockchain" />
-      <button onClick={() => { handleDownload(fil4) }}>Show</button>
+      <Frontend title="Data structure" />
+      <button className=" Rodadmap_btn" onClick={() => { handleDownload(fil4) }}>Show</button>
 
-      <Frontend title="Android" />
-      <button onClick={() => { handleDownload(file) }}>Show</button>
+      <Frontend title="Android Devloper" />
+      <button  className=" Rodadmap_btn" onClick={() => { handleDownload(file) }}>Show</button>
     </div>
   );
 };

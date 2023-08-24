@@ -16,15 +16,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 400px;
+    margin-left: 410px;
     
 }
-#navbr li button{
+/* #navbr li butn1{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 200px;
-    color: #fff;
+    
+   
+    
+} */
+#butn1{
+    width: 90px;
+    height: 30px;
+    margin-left: 20px;
 }
 #navbr li{
     list-style: none;
@@ -80,6 +86,9 @@
         color: #fff;
         align-items: center;
         cursor: pointer;
+    }
+    #butn1{
+        margin-left: 0px;
     }
     
 }
