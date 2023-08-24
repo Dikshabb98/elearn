@@ -1,0 +1,15 @@
+butnn{
+    margin-left:190px ;
+   width:80px;
+  background-color: black;
+  color: white;
+  border-radius: 10px 10px;
+  cursor: pointer;
+}
+butnn:hover {
+    background: #0c0c0c;
+    background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
+    background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
+}
+
+  

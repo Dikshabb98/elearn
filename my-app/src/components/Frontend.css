@@ -1,0 +1,19 @@
+h1{
+
+    color: #37b6a3;
+    }
+    .data{
+        background:  linear-gradient(to right, #232222, #000); 
+        border-radius: 10px 10px 10px 10px;
+        height: 70px;
+        width: 350px;
+        cursor: pointer;
+        margin: 0px 0px 10px 60px ;
+        margin-top: 100px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        
+    }
+    /* p{
+        color:#292e49;
+        margin-top: 120px;
+    } */

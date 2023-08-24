@@ -2,7 +2,7 @@ import './App.css'
 import React from 'react'
 import { BrowserRouter,Routes,  Route} from "react-router-dom"
 import Navbar from './components/Navbar'
-// import MyImage from './components/MyImage'
+import MyImage from './components/MyImage'
 import Home from './components/Home'
 import Course from './components/Course'
 import Roadmaps from './components/Roadmaps'
@@ -23,11 +23,13 @@ function App()  {
   <Route path="/roadmaps" element={<Roadmaps />} />
   <Route path="/about" element={<About />} />
   <Route path="/login" element={<Login />} />
+  {/* <Route exact path="/" component={MyComponent} />
+  <Route path="/Sign In" component={OtherPage} /> */}
 </Routes>
 
 
 </BrowserRouter>
-      {/* <MyImage/> */}
+      <MyImage/>
       
       </div>
    

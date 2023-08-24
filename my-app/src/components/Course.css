@@ -1,7 +1,35 @@
-h2{
+.large-font{
+    margin-top: 10px;
     justify-content: center;
-    color: black;
-    background-color: black;
+    color: rgb(2, 2, 2);
     text-align: center;
+    font-size: 60px;
+    font-family: Calibri,  sans-serif;
     
 }
+.small-font{
+    font-size: 16px;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+.course-container {
+    background: #ffffff; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    margin-top: 100px;
+    
+}
+
+
+
+ 
+  
+  
+  
+  
+  
+
