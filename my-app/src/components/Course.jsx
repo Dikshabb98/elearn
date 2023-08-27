@@ -4,6 +4,7 @@ import Card from './Card'
 import Web1 from "../images/web1.png"
 import Pic2 from '../images/pic2.png'
 import Pic4 from '../images/pic4.jpg'
+
 const Course = () => {
   return (
     <>
@@ -46,6 +47,17 @@ const Course = () => {
     image={Pic4}
     about="A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away."
     btn="View Course"/>
+     <Card 
+    title="Web Designing"
+    image={Web1}
+    about="A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away."
+    btn="View Course"/>
+    <Card 
+    title="UI/UX Designing"
+    image={Pic2}
+    about="A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away."
+    btn="View Course"/>
+
     
     </div>
     </div>

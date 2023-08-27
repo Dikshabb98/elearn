@@ -1,25 +1,25 @@
 .card{
     border-radius: 8px;
     overflow: hidden;
-    width: 305px;
-    margin: 16px;
+    width: 260px;
+    height: 450px;
     display: inline-block;
-    background-color: #45b0ab;
+    background-color: #ffffff;
     justify-content: center;
-    margin: 90px;
+    margin: 45px;
     padding: 30px;
-    box-shadow: #06121b;
+    margin-left: 60px;
+   
   }
-
-  .card:hover{
-    background-color: #a57dbc;
+ .card:hover{
+    background-color: #ffffff;
     transform: scale(1.1);
      
   }
   
 
 .card_title {
-    padding: 20px;
+    padding: 1px;
    text-align: center;
   }
   
@@ -39,14 +39,16 @@
     width: 100px;
   }
 .card_btn:hover{
-  color: rgb(7, 7, 7);
-  background-color: #d3c6db;
+  color: rgb(0, 0, 0);
+  background-color: #379191;
+  transform: scale(1.1);
+     
 }
   
 
   .card_image{
-    height: 150px;
-    width: 245px;
+    height: 130px;
+    width: 210px;
     border-radius: 10px 10px 10px 10px;
   }
 
