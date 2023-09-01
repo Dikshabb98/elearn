@@ -1,5 +1,6 @@
 import React from 'react'
 import Sidebar from '../components/Sidebar'
+import Video from '../Videocalling/Video'
 import './Viewcourse.css'
 const Viewcourse = () => {
   return (
@@ -7,8 +8,8 @@ const Viewcourse = () => {
     <div className='view_course'>
       <Sidebar/>
           <div className='scroll'>
-          Web DEVELOPMENT
-       
+          <button type="button">Back to Course</button>
+          <Video/>
         </div>
         </div>
        
