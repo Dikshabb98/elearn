@@ -1,0 +1,17 @@
+
+.viewcourse{
+    display: flex;
+    box-sizing: border-box;
+    height: 100vh;
+    
+    
+}
+.view_course1{
+    width: 260px;
+    flex-shrink: 0;
+    background-color: rgb(61, 60, 60);
+    height: 100%;
+
+    
+
+}
