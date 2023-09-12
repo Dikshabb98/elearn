@@ -1,12 +1,16 @@
 .view_course{
-    padding-top: 0%;
-    margin-top: 0px;
+    position: fixed;
+    padding-top: 60px;
     overflow: auto;
     display: flex;
 }
 .scroll{
     padding: 0%;
-    margin-top: 90px;
-    margin-left: 20px;
+    margin-top: 60px;
+    margin-left: 40px;
+  
+}
+.card_btnv{
+    color: black;
 }
 

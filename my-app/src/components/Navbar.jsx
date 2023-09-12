@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-
+import { useAuth0 } from "@auth0/auth0-react";
 function Navbar() {
   const [showNav, setShowNav] = useState(false);
+  const { isAuthenticated, loginWithRedirect, logout, user, isLoading } = useAuth0();
   const toggleNav = () => {
     setShowNav(!showNav);
   };
@@ -88,11 +89,28 @@ function Navbar() {
               <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/login">Login</Link>
+              {isAuthenticated ? (
+                <button id="butn1"
+                  onClick={() =>
+                    logout({ returnTo: window.location.origin })
+                  }
+                >
+                  Log Out
+                </button>
+              ) : (
+                <button id="butn1" onClick={() => loginWithRedirect()}>
+                  Log in
+                </button>
+              )}
             </li>
+
             <li>
-              <button id="butn1" onClick={() => console.log('Button clicked!')}>Sign in</button>
-              </li>
+              {isAuthenticated && (
+                <div>
+        
+                </div>
+              )}
+            </li>
             
           </ul>
         </div>

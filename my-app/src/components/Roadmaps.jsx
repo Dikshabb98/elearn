@@ -1,6 +1,7 @@
 import React from 'react';
 import Frontend from './Frontend';
 import './Roadmaps.css'
+import Fr from "../components/Footer"
 
 const file = 'https://drive.google.com/drive/folders/12E-T2XitFrQZM6NiKPbo6KiER2CgS3wO';
 const fil2 = 'https://drive.google.com/drive/folders/12E-T2XitFrQZM6NiKPbo6KiER2CgS3wO';
@@ -15,9 +16,8 @@ const Roadmaps = () => {
     <div className='rd_cont'>
      <div id='textrd'>
       <h1  id='h1_lay'>  Welcome to Roadmaps </h1>
-      <p id='p_lay'> bshcgxjhaschjasbcashbvjhsajhsvhjsvjhqsvjhsfvhvfhnhgvftgtftgfgb <br />
-      sgbcjhabcnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn <br />
-      yghygjygjyg <br />
+      <p id='p_lay'> We are for building you carrier so that you can achieve your goal using given roadmaps.
+      <br />
       </p>
      </div>
     <div className='roadmap'>
@@ -34,6 +34,7 @@ const Roadmaps = () => {
     <a href= {file}><Frontend  title=" DEV/OOPS" className="andr"  /></a>
     <a href= {file}><Frontend  title="Backend Developer" className="andr"  /></a>
     </div>
+    <Fr/>
     </div>
     </>
   );

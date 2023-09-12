@@ -16,13 +16,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 410px;
+    margin-left: 570px;
     
 }
 #butn1{
     width: 90px;
     height: 30px;
-    margin-left: 20px;
+   
 }
 #navbr li{
     list-style: none;

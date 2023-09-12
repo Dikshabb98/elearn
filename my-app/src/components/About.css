@@ -8,7 +8,7 @@
 }
 .abut{
     flex: 1;
-    padding: 20px;
+    padding: 10px;
     
 }
 .h2_style{
@@ -24,6 +24,8 @@
     justify-content: flex-end;
     height: 400px; 
     width: 400px;
+    margin-bottom: 110px;
+    margin-top: 70px;
 
 }
 .p_styl{

@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import Bg from "../images/pic5.jpg";
+import Fr from "../components/Footer"
 
 const About = () => {
   return (
@@ -10,20 +11,17 @@ const About = () => {
       <h2 className='h2_style'>
         About Us
       </h2>
-      <p className='p_styl'>I am Myname. This is my react project in which 
-       React is very passionabke language which 
-        I like top most in all other languages. 
-        heeeeeeeeeeeeeeeeeeheeeeeehehe 
-        beeeeeeeenrnfmnf brrrrrrrrr 
-        beeeeeeeeeeeeebeeeeeeeee 
-        heeeeeeeeeehe </p>
+      <p className='p_styl'>This website is for those who want to learn online <br />
+      We are here to help so be the first to grab the benefits.
+      We provide you the mentors of different fields.</p>
         
         </div>
         <div className='imgi_stl'>
         <img  src={Bg} alt="" srcset="" />
         </div>
+       
     </div>
-    
+    <Fr/>
     </>
   );
 }

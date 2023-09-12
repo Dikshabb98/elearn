@@ -4,6 +4,7 @@ import Card from './Card'
 import Web1 from "../images/web1.png"
 import Pic2 from '../images/pic2.png'
 import Pic4 from '../images/pic4.jpg'
+import Fr from "../components/Footer"
 
 const Course = () => {
   return (
@@ -60,6 +61,7 @@ const Course = () => {
 
     
     </div>
+    <Fr/>
     </div>
     
   </>
